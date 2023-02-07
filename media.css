@@ -1,0 +1,21 @@
+@media (max-width : 1000px) {
+  body {
+    overflow:auto;
+  }
+  .headline {
+    display: inline-block;
+    font-size: 80px;
+    height: auto;
+  }
+  .subline {
+    display: inline-block;
+    font-size: 25px;
+  }
+  .description {
+    display:block;
+    font-size:20px;
+  }
+  .bottom_subject {
+    font-size: 60px;
+  }
+}

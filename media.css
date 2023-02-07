@@ -1,17 +1,19 @@
 @media (max-width : 1000px) {
   body {
-    overflow:auto;
+    overflow:scroll;
   }
   .headline {
-    display: inline-block;
-    font-size: 80px;
     height: auto;
   }
-  .subline {
-    display: inline-block;
+  .headline > span {
+    display: block;
+    font-size: 80px;
+  }
+  .subline > span {
+    display: block;
     font-size: 25px;
   }
-  .description {
+  .description > span {
     display:block;
     font-size:20px;
   }

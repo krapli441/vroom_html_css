@@ -18,6 +18,24 @@ visibility: hidden;
 }
 }
 
+.bottom_subject {
+  animation: opacity 3s forwards ease-out;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0.3;
+  }
+}
+
 body {
 background-color: black;
 overflow: hidden;
@@ -77,7 +95,6 @@ position: fixed;
 bottom: 0;
 right: 0;
 color:white;
-opacity: 0.4;
 font-size:220px;
 font-weight: bold;
 }

@@ -25,11 +25,13 @@ visibility: hidden;
 }
 }
 
+
+
 .bottom_subject {
-  animation: opacity 3s forwards ease-out;
+  animation: bottom_opacity 8s forwards ease-out;
 }
 
-@keyframes opacity {
+@keyframes bottom_opacity {
   0% {
     opacity: 0;
   }
@@ -57,26 +59,49 @@ font-weight: bold;
 width: auto;
 height: 160px;
 margin-bottom: 0px;
-
+animation : headline_popup 0.6s forwards ease-out;
 }
+
+@keyframes headline_popup {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+
+
 .subline {
 display: block;
 margin-top:15px;
 font-size: 80px;
 color:var(--text-color);
-
+opacity: 0;
+animation: opacity 0.4s forwards ease-out;
+animation-delay: 1s;
 }
+
+
 .description span {
 display: block;
 margin-top:10px;
 font-size: 30px;
 color: var(--text-color);
+opacity: 0;
+animation: opacity 0.4s forwards ease-out;
+animation-delay: 2s;
 }
+
+
 
 .enter_btn {
 margin-top:50px;
 width: 200px;
 height: 55px;
+opacity: 0;
 background-color: var(--splash-color);
 color:var(--main-color);
 font-size: 45px;
@@ -86,6 +111,8 @@ vertical-align: baseline;
 margin-right: 120px;
 transition: background-color 0.2s ease-out 50ms;
 transition: color 0.2 ease-out 50ms;
+animation: opacity 0.4s forwards ease-out;
+animation-delay: 4s;
 }
 
 .enter_btn:hover {
@@ -105,4 +132,15 @@ right: 0;
 color:var(--splash-color);
 font-size:220px;
 font-weight: bold;
+}
+
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  
+  100% {
+    opacity: 100;
+  }
 }

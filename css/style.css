@@ -8,16 +8,3 @@ a {
 color:inherit;
 text-decoration: none;
 }
-
-
-
-
-@keyframes opacity {
-  0% {
-    opacity: 0;
-  }
-  
-  100% {
-    opacity: 100;
-  }
-}

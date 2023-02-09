@@ -1,0 +1,30 @@
+.bottom_subject {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  color:var(--splash-color);
+  font-size:220px;
+  font-weight: bold;
+  }
+  
+  
+  .bottom_subject {
+    animation: bottom_opacity 8s forwards ease-out;
+  }
+  
+  
+    @keyframes bottom_opacity {
+      0% {
+        opacity: 0;
+      }
+    
+      50% {
+        opacity: 0;
+      }
+    
+      100% {
+        opacity: 0.3;
+      }
+    }
+
+

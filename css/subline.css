@@ -1,0 +1,9 @@
+.subline {
+  display: block;
+  margin-top:15px;
+  font-size: 80px;
+  color:var(--text-color);
+  opacity: 0;
+  animation: opacity 0.4s forwards ease-out;
+  animation-delay: 1s;
+  }

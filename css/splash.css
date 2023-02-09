@@ -1,0 +1,18 @@
+.splash_screen {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--splash-color);
+  animation: splash 0.5s forwards;
+}
+
+@keyframes splash {
+  0% {
+  opacity: 1;
+  }
+  
+  100% {
+  opacity: 0;
+  visibility: hidden;
+  }
+  }

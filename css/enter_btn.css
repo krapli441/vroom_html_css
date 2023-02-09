@@ -1,0 +1,22 @@
+.enter_btn {
+  margin-top:50px;
+  width: 200px;
+  height: 55px;
+  opacity: 0;
+  background-color: var(--splash-color);
+  color:var(--main-color);
+  font-size: 45px;
+  text-align: center;
+  font-weight: bold;
+  vertical-align: baseline;
+  margin-right: 120px;
+  transition: background-color 0.2s ease-out 50ms;
+  transition: color 0.2 ease-out 50ms;
+  animation: opacity 0.4s forwards ease-out;
+  animation-delay: 4s;
+  }
+  
+  .enter_btn:hover {
+  background-color: var(--main-color);
+  color: var(--splash-color);
+  }

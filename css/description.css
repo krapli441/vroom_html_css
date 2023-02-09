@@ -1,0 +1,9 @@
+.description span {
+  display: block;
+  margin-top:10px;
+  font-size: 30px;
+  color: var(--text-color);
+  opacity: 0;
+  animation: opacity 0.4s forwards ease-out;
+  animation-delay: 2s;
+  }

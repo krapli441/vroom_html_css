@@ -12,8 +12,7 @@
     animation: bottom_opacity 8s forwards ease-out;
   }
   
-  
-    @keyframes bottom_opacity {
+@keyframes bottom_opacity {
       0% {
         opacity: 0;
       }
